@@ -1,7 +1,10 @@
 # Create opencv environment in the Terminal
  > conda create --name opencv-env
  > conda activate opencv-env
+ 
+ # install packages
  > conda install -c conda-forge opencv
+ > conda install matplotlib
 
 # Activate the opencv environment
 1. In the terminal: 
