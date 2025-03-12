@@ -1,6 +1,15 @@
-# Test open cv environment in the Terminal
- 
+# Create opencv environment in the Terminal
+ > conda create --name opencv-env
  > conda activate opencv-env
+ > conda install -c conda-forge opencv
+
+# Activate the opencv environment
+1. In the terminal: 
+	> conda activate opencv-env 
+2. Alternatively, 
+	open: Anaconda Navigator > 
+	go to: Environments > 
+	click: opencv-env
 
 (opencv-env) > python
 				>>> import cv2 as cv
