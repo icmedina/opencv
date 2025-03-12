@@ -14,9 +14,12 @@
 	go to: Environments > 
 	click: opencv-env
 
+# Run python
 (opencv-env) > python
-				>>> import cv2 as cv
-				>>> cv.__version__
-				>>> exit
-				
+		>>> import cv2 as cv
+		>>> cv.__version__
+		>>> exit
+		
 (opencv-env) > conda deactivate
+
+# environment path: C:\Users\[User]\anaconda3\envs\opencv-env
