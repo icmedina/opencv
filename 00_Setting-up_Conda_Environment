@@ -1,0 +1,10 @@
+# Test open cv environment in the Terminal
+ 
+ > conda activate opencv-env
+
+(opencv-env) > python
+				>>> import cv2 as cv
+				>>> cv.__version__
+				>>> exit
+				
+(opencv-env) > conda deactivate
