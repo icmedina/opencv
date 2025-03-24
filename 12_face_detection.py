@@ -47,7 +47,11 @@ source = cv2.VideoCapture(s)
 win_name = "Camera Preview"
 cv2.namedWindow(win_name, cv2.WINDOW_NORMAL)
 
+# deploy.prototxt - contains the network architechture info
+# res10_300x300_ssd_iter_140000_fp16.caffemodel - caffe model file that contains the weights of the model
+
 net = cv2.dnn.readNetFromCaffe("deploy.prototxt", "res10_300x300_ssd_iter_140000_fp16.caffemodel")
+
 # Model parameters
 in_width = 300
 in_height = 300
